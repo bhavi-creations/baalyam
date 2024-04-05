@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    /* background-color:#f8f8f8    */
+}
+
+
+/* Home Page  */
+.header_button {
+    display: inline-flex;
+height: 40px;
+padding: 10px 28px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 46px;
+background: #B253A7;
+border-width: 0px;
+}
+.header_chevron{
+    margin-top:10px;
+}
+.little_minds_heasding {
+    color: #B253A7;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 133.333% */
+letter-spacing: 0.2px;
+}
+.little_minds_para {
+    color: var(--second-text-color, #737373);
+
+/* h4 */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+.star_sec_heading{
+    color: var(--text-color, #252B42);
+
+/* h3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+.star_sec_para{
+    color: var(--second-text-color, #737373);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+}
+.section2 {
+    margin-top:-550px;  
+}
+.balyam-heading {
+    color: #1D3078;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 72.727% */
+letter-spacing: 0.1px;
+}
+.balyam-para {
+    color: var(--second-text-color, #737373);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 194.444% */
+letter-spacing: 0.2px;
+}
+.what_provides_heading {
+    color: #1D3078;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 61px; /* 138.636% */
+letter-spacing: 0.1px;
+}
+.what_provides_para {
+    color: var(--second-text-color, #737373);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 194.444% */
+letter-spacing: 0.2px;
+}
+.service_heading {
+    color: #4C4C4C;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 69px; /* 230% */
+letter-spacing: 0.1px;
+}
+.service_para {
+    color: #1D3078;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 59px; /* 134.091% */
+letter-spacing: 0.1px;
+}
