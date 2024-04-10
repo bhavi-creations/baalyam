@@ -42,7 +42,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light    nav_top shadow" style="margin-top: -10px;" >
         <div class="container">
-            <a href="index.html"><img class="img_logo    "     src=" assests/images/Logo.png" alt=""></a>
+            <a href="index.html"><img class="img_logo   navbar-logo "     src=" assests/images/Logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -65,20 +65,20 @@
                         <a style="color:black; font-weight: bold;"  class="nav-link " id="navlink4" href="playgroup.html">Play group</a>
                     </li>
                     <li class="nav-item  ">
+                        <a style="color:black; font-weight: bold;"  class="nav-link " id="navlink4" href="branches.html">Branches</a>
+                    </li>
+                    <li class="nav-item  ">
                         <div class="d-flex flex-row">
                             <a style="color:black; font-weight: bold;"  class="nav-link " id="navlink5" href="gallery.html">Gallery</a>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="header_chevron" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M6 9L12 15L18 9" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg> -->
                         </div>
                     </li>
                     <a href="contact.html"><button class="header_button " id="navlink6" >Contact</button></a>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> 
     
-    <div class="section1">
+    <div class="section1" style="background-color: azure;">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5" style="background-color: #F7F3EB;">
                     <h1 class="contact-heading text-center">Contact us </h1>
-                    <p class="contact-para1 text-center">Feel free to reach out to us with any questions or inquiries – we're here to help!
+                    <p class="paracolor contact-para1 text-center">Feel free to reach out to us with any questions or inquiries – we're here to help!
                     </p>
                     <form>
                         <input type="text" placeholder="Parent's Name" class="input-field"/>
@@ -101,7 +101,40 @@
         </div>
     </div>
     
-    
+    <button id="scrollBtn" onclick="scrollToTop()" style="background-color: transparent;">
+        <div class="pyramid-loader" >
+          <div class="wrapper">
+            <span class="side side1"></span>
+            <span class="side side2"></span>
+            <span class="side side3"></span>
+            <span class="side side4"></span>
+            <span class="shadow"></span>
+          </div>
+        </div>
+      </button>
+      
+      <script>
+         // Function to scroll to the top of the page
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // Optional, smooth scrolling animation
+        });
+      }
+      
+      // Show scroll button when scrolling down
+      window.onscroll = function() {
+        scrollFunction()
+      };
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("scrollBtn").style.display = "block";
+        } else {
+          document.getElementById("scrollBtn").style.display = "none";
+        }
+      }
+      </script>
 
   </body>
 </html>
