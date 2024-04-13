@@ -14,80 +14,40 @@
 }
 
 /*================================ Home Page======================================  */
-@media screen and (min-width:1200px) {
-    .butterfly-img {
-        margin-top:-80px;
-        margin-left: 190px;
-    }
-    .little_minds_heasding{
-        margin-top: -100px;
-    }
-    .wave-img {
-        margin-top:-400px
-    }
-    
-}
-@media(max-width:768px) {
-    .wave-img {
-        height: 800px;
-    }
-}
-
-.titleimg_text {
-    color: #FFF;
+.chairman_heading {
+    color: #1D3078;
 font-family: Poppins;
-font-size: 30px;
+font-size: 44px;
 font-style: normal;
 font-weight: 600;
-line-height: 40px; /* 114.286% */
-letter-spacing: 0.2px;
 }
-@media (max-width:768px) {
-    .titleimg_text {
-        color: #FFF;
+.sub-para-chairman {
+    color: var(--second-text-color, #737373);
 font-family: Poppins;
-font-size: 16px;
+font-size: 22px;
 font-style: normal;
 font-weight: 600;
+line-height: 35px; /* 159.091% */
 letter-spacing: 0.2px;
-    } 
 }
-.header_button {
-    display: inline-flex;
-height: 40px;
-padding: 10px 28px;
-align-items: flex-start;
-gap: 10px;
-flex-shrink: 0;
-color: #FFF;
-font-family: Inter;
-font-size: 16px;
+.para-chairman {
+    color: var(--second-text-color, #737373);
+font-family: Poppins;
+font-size: 18px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 46px;
-background: #B253A7;
-border-width: 0px;
-}
-.header_chevron{
-    margin-top:10px;
-}
-.little_minds_heasding {
-    color: #B253A7;
-font-size: 60px;
-font-style: normal;
-font-weight: 700;
-line-height: 80px; /* 133.333% */
+font-weight: 500;
+line-height: 35px;
 letter-spacing: 0.2px;
 }
 @media screen and (max-width:768px) {
     .little_minds_heasding {
         color: #B253A7;
-    font-size: 35px;
+    font-size: 35px !important;
     font-style: normal;
     font-weight: 700;
-    line-height: normal; /* 133.333% */
+    /* line-height: normal; 133.333% */
     letter-spacing: 0.2px;
+    
     }
     .home-kidimg1 {
         margin-top: 5px;
@@ -168,8 +128,158 @@ letter-spacing: 0.2px;
     font-weight: 700;
     line-height: 46.25px;
     } 
+    .chairman_heading {
+        color: #1D3078;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 40px;
+    text-align: center;
+    }
     
 }
+@media(min-width:768px) and (max-width:992px) {
+    .wave-img {
+        margin-top:-100px
+    }
+    .chairman_heading {
+        color: #1D3078;
+    font-family: Poppins;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -40px;
+    text-align: center;
+    }
+    
+}
+@media(min-width:992px) {
+    .para-chairman {
+        text-align: start;
+        padding-left: 50px;  
+        padding-right: 50px;
+    }
+    .sub-para-chairman {
+        text-align: start;
+        padding-left: 50px;  
+        padding-right: 50px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .butterfly-img {
+        margin-top:-80px;
+        margin-left: 190px;
+    }
+    .little_minds_heasding{
+        margin-top: -100px;
+    }
+    .wave-img {
+        margin-top:-400px
+    }
+    .tigerdoll {
+        width: 300px;
+         height: 300px;
+    }
+    .pagesec {
+        margin-top:70px !important;
+    }
+    
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    .wave-img {
+        margin-top:-300px
+    }
+}
+@media(min-width:768px) {
+    .wave-img {
+        height: 800px;
+    }
+    .chairman_sec {
+        margin-top: 150px;
+        text-align: center;
+    }
+   
+}
+
+.titleimg_text {
+    color: #FFF;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 114.286% */
+letter-spacing: 0.2px;
+}
+@media (max-width:768px) {
+    .titleimg_text {
+        color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+letter-spacing: 0.2px;
+    } 
+}
+.header_button {
+    display: inline-flex;
+height: 40px;
+padding: 10px 28px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 46px;
+background: #B253A7;
+border-width: 0px;
+}
+.header_chevron{
+    margin-top:10px;
+}
+.little_minds_heasding {
+    color: #B253A7;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+letter-spacing: 0.2px;
+}
+@media(min-width:768px) and (max-width:992px) {
+    .little_minds_heasding {
+        color: #B253A7;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 80px; 133.333% */
+    letter-spacing: 0.2px;
+    }  
+    .section2 {
+        margin-top:-300px !important;  
+    }
+    .tigerdoll  {
+        width:150px;
+        height:150px;
+        margin-top: -100px;
+    }
+    
+}
+@media(min-width:992px) and (max-width:1200px) {
+    .section2 {
+        margin-top:-200px !important;  
+    } 
+    .tigerdoll  {
+        width:150px;
+        height:150px;
+        margin-top: -100px;
+    }
+}
+
 .little_minds_para {
     color: var(--second-text-color, #737373);
 
@@ -563,6 +673,22 @@ line-height: 54px; /* 96.429% */
     font-weight: 800;
     line-height: 54px; /* 96.429% */
     }
+    .input-field {
+        border-radius: 54px;
+    background: #FFF;
+    width: 100% !important;
+    height: 76px;
+    flex-shrink: 0;
+    color: var(--second-text-color, #737373);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 200% */
+    letter-spacing: 0.2px;
+    padding-left: 30px;
+    border-width:0px;
+    }
 }
 .contact-para1 {
     color: var(--second-text-color, #737373);
@@ -577,7 +703,7 @@ letter-spacing: 0.2px;
 .input-field {
     border-radius: 54px;
 background: #FFF;
-width: 80%;
+width: 85%;
 height: 76px;
 flex-shrink: 0;
 color: var(--second-text-color, #737373);
@@ -590,9 +716,44 @@ letter-spacing: 0.2px;
 padding-left: 30px;
 border-width:0px;
 }
+/* Style the select element */
+.dropdown1 {
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For older versions of Safari */
+    -moz-appearance: none; /* For older versions of Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Use your custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%; /* Adjust position as needed */
+    padding-right: 30px; /* Increase padding to accommodate arrow */
+  }
+  
+  /* Style the arrow icon */
+  .dropdown1::-ms-expand {
+    display: none; /* Hide default arrow in IE10 and IE11 */
+  }
 .contact-button {
     border-radius: 65px;
 background: #06B0C3;
+}
+@media(min-width:768px) {
+    .dropdown2 {
+        appearance: none; /* Remove default appearance */
+        -webkit-appearance: none; /* For older versions of Safari */
+        -moz-appearance: none; /* For older versions of Firefox */
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Use your custom arrow icon */
+        background-repeat: no-repeat;
+        background-position: right 10px top 50%; /* Adjust position as needed */
+        padding-right: 30px; /* Increase padding to accommodate arrow */
+      }
+      
+      /* Style the arrow icon */
+      .dropdown2::-ms-expand {
+        display: none; /* Hide default arrow in IE10 and IE11 */
+      }
+    .contact-button {
+        border-radius: 65px;
+    background: #06B0C3;
+    }
 }
 
 /* ================================================footer ================================================ */
@@ -618,7 +779,7 @@ color: #737373;
         margin-top:-250px
     }
     .copy-right {
-        margin-top: 50px;
+        margin-top: 25px;
     }
     .copy-right {
         background-color: #F7F3EB;
@@ -852,6 +1013,73 @@ font-weight: 600;
 line-height: 25px; /* 178.571% */
 letter-spacing: 0.2px;
   }
+
+
+  /*================================================== whatsapp  ==================================*/
+  .whatsapp_logo {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+.whatsapp_logo img {
+    width:50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+
+.Btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #075e54;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+  }
+  
 
 
 
