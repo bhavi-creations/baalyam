@@ -922,8 +922,8 @@ letter-spacing: 0.2px;
 /* =======================================================Scroll-to-Top Button ====================================*/
 .pyramid-loader {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 80px;
+    height: 80px;
     display: block;
     transform-style: preserve-3d;
     transform: rotateX(-20deg);
