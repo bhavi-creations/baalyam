@@ -96,25 +96,25 @@
                     <h1 class="contact-heading text-center">Contact us </h1>
                     <p class="paracolor contact-para1 text-center">Feel free to reach out to us with any questions or inquiries – we're here to help!
                     </p>
-                    <form>
-                        <input type="text" placeholder="Parent's Name" class="input-field"/>
-                        <input type="phone  " placeholder="+91" class="input-field mt-5"/>
+                    <form action="contact.php" method="POST">
+                        <input type="text" name="parentsname" placeholder="Parent's Name" class="input-field" required/>
+                        <input type="phone" name="phonenumber" placeholder="+91" class="input-field mt-5" required/>
                         <!-- <input type="phone  " placeholder="Select Program Interested In?" class="input-field mt-5"/> -->
-                        <select class="input-field dropdown1 mt-5">
+                        <select class="input-field dropdown1 mt-5" name="program" required>
                             <option value="" selected disabled>Select Program Interested In</option>
-                            <option value="program1">Day Care</option>
-                            <option value="program2">Nursery</option>
-                            <option value="program3">L.K.G</option>
-                            <option value="program3">U.K.G</option>
-                            <option value="program3">Play Group</option>
+                            <option value="Day Care">Day Care</option>
+                            <option value="Nursery">Nursery</option>
+                            <option value="L.K.G">L.K.G</option>
+                            <option value="U.K.G">U.K.G</option>
+                            <option value="Play Group">Play Group</option>
                             <!-- Add more options as needed -->
                           </select>
-                          <select class="input-field dropdown2 mt-5">
+                          <select class="input-field dropdown2 mt-5" name="branches" required>
                             <option value="" selected disabled>Branches</option>
-                            <option value="program1">Gachibowli</option>
-                            <option value="program2">Kukatpally</option>
-                            <option value="program3">Kowkur</option>
-                            <option value="program3">Siddipet</option>
+                            <option value="Gachibowli">Gachibowli</option>
+                            <option value="Kukatpally">Kukatpally</option>
+                            <option value="Kowkur">Kowkur</option>
+                            <option value="Siddipet">Siddipet</option>
                             <!-- Add more options as needed -->
                           </select>
                           
