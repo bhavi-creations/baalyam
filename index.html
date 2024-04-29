@@ -35,7 +35,40 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
        
+       <style>
+        .dropdown-item:hover {
+            background-color: #ff69b4; /* Pink color highlight on hover */
+            color: #fff; /* Text color on hover */
+        }
+        .custom-nav-buttons button {
+    background-color:#7369ff;
+    border: none;
+    cursor: pointer;
+    padding: 5;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.custom-nav-buttons button svg {
+    fill: #fcf7f9;
+    width: 25px;
+    height: 25px;
+}
+
+.custom-nav-buttons button:hover svg {
+    fill: #ff1493; 
+}
+
+        
+       </style>
       
     </head>
 
@@ -49,8 +82,32 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse nav_names " id="navbarNav">
-                <ul class="navbar-nav  nav_auto  m-auto" >
-                    <li class="nav-item  ">
+                <ul class="navbar-nav  nav_auto  ms-auto" >
+                    <li class="nav-item dropdown">
+                        <a style="color:black; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programs
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #fff; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                            <a class="dropdown-item" href="daycare.html" style="color: #333;font-weight: bold;">Daycare</a>
+                            <a class="dropdown-item" href="nursery.html" style="color: #333;font-weight: bold;">Nursery</a>
+                            <a class="dropdown-item" href="lkg.html" style="color: #333;font-weight: bold;">LKG</a>
+                            <a class="dropdown-item" href="ukg.html" style="color: #333;font-weight: bold;">UKG</a>
+                            <a class="dropdown-item" href="playgroup.html" style="color: #333;font-weight: bold;">Play Group</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a style="color:black; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Experience Baalyam
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #fff; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+                            <!-- <a class="dropdown-item" href="about.html" style="color: #333;font-weight: bold;">About Us</a> -->
+                            <a class="dropdown-item" href="founder.html" style="color: #333;font-weight: bold;">Founder</a>
+                            <a class="dropdown-item" href="vision_mission.html" style="color: #333;font-weight: bold;">Vision and Mission</a>
+                        </div>
+                    </li>
+                    
+                   
+                    <!-- <li class="nav-item  ">
                         <a style="color:black; font-weight: bold;" class="  nav-link " href="daycare.html">Day care</a>
                     </li>
                     <li class="nav-item  ">
@@ -65,7 +122,7 @@
                     </li>
                     <li class="nav-item  ">
                         <a style="color:black; font-weight: bold;"  class="nav-link " id="navlink4" href="playgroup.html">Play group</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item  ">
                         <a style="color:black; font-weight: bold;"  class="nav-link " id="navlink4" href="branches.html">Branches</a>
                     </li>
@@ -353,6 +410,110 @@
             </div>
         </div>
    </div>
+
+
+   <!-- Testimonials  -->
+   <div class="container mt-5">
+    <h1 class="text-center chairman_heading mt-3">Parents Says</h1>
+    <p class="text-center weuse">
+
+        Join our satisfied clients who have experienced transformative results and exceptional service.</p>
+    </div>
+    <div class="custom-nav-buttons d-flex flex-row justify-content-end">
+        <button class="prev "><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+            </svg></button>
+        <button class="next ms-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg></button>
+    </div>
+
+    <section class="background">
+        <div class="owl-carousel owl-theme  p-5" >
+            <div class="item container " >
+                <div class="blog_cardss row shadow" >
+                    <div class="col-3" >
+                        <img class="rounded-circle shadow-1-strong mt-4" src="assests/images/k icon.png" alt="avatar" style="width: 80px; background-color: #CCCCFF;" />
+                    </div>
+                    <div class="col-5 me-3 mt-5">
+                        <h5 class="">Deepika </h5>
+                        <p class="">⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <p class="what_provides_para" style="color:#333; line-height: normal;">
+                       My son studying in nursery, Baalyam school at Giridhari art. I m very much thankful to all teachers, because they have taken good care and I have seen so many good changes in my kid. I suggest it’s a good Pre school for children.
+                    </p>
+        
+                </div>
+            </div>
+            <div class="item container ">
+                <div class="  blog_cardss row shadow">
+                    <div class="col-3">
+                        <img class="rounded-circle shadow-1-strong mt-4" src="assests/images/s icon.png" alt="avatar" style="width: 80px; background-color: #FFC0CB;" />
+                    </div>
+                    <div class="col-5 me-3 mt-5">
+                        <h5 class="">Konna Chilla</h5>
+                        <p class="">⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <p class="what_provides_para" style="color:#333; line-height: normal;">
+                        Had my Son study here from Nursery to UKG. Very courteous and easily accessible staff and teachers. I am overall happy with the way this School took care of my Son’s academics. I would recommend this School. Best pre-school in Bandlaguda Jagir.
+                    </p>
+                </div>
+            </div>
+            <div class="item container ">
+                <div class=" blog_cardss row shadow">
+                    <div class="col-3">
+                        <img class="rounded-circle shadow-1-strong mt-4" src="assests/images/d icon.png" alt="avatar" style="width: 80px;" />
+                    </div>
+                    <div class="col-5 me-3 mt-5">
+                        <h5 class=""> Saikumari</h5>
+                        <p class="">⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <p class="what_provides_para" style="color:#333; line-height: normal;">
+                        Many thanks to teachers, principal and entire Balyaam team for taking good care of my son not only studies but also discipline and self development. One of the best school to choose which will reduce pressure especially for working parents.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+
+        // Custom Navigation Buttons
+        $('.next').click(function() {
+            owl.trigger('next.owl.carousel');
+        });
+        $('.prev').click(function() {
+            owl.trigger('prev.owl.carousel');
+        });
+    });
+</script>
+
 
    <div class="last-sec" style="background-color:rgb(253, 240, 255)">
     <div class="container">
