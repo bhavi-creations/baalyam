@@ -1087,6 +1087,12 @@ letter-spacing: 0.2px;
         margin-top: 10px;
     }
 }
+@media(min-width:1200px) {
+    .testimonial_card {
+        height:250px;
+        box-shadow: #D8CCE6;
+    }
+}
 
 
 
