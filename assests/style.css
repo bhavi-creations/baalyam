@@ -1089,7 +1089,7 @@ letter-spacing: 0.2px;
 }
 @media(min-width:1200px) {
     .testimonial_card {
-        height:250px;
+        height:350px;
         box-shadow: #D8CCE6;
     }
 }
