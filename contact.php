@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
         echo '<script>
         window.alert("Message sent successfully");
-        window.location.href = "index.html";
+        window.location.href = "index.php";
       </script>';
 
     } catch (Exception $e) {
