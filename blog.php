@@ -114,9 +114,9 @@ $result = $conn->query($sql);
                         <a style="color:black; font-weight: bold;" class="nav-link " id="navlink4" href="branches.html">Branches</a>
                     </li>
 
-                    <li class="nav-item  ">
+                    <!-- <li class="nav-item  ">
                         <a style="color:black; font-weight: bold;" class="nav-link " id="navlink4" href="blog.php">Blogs</a>
-                    </li>
+                    </li> -->
 
 
 

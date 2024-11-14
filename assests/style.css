@@ -1095,5 +1095,53 @@ letter-spacing: 0.2px;
 }
 
 
-
+.logos{
+    margin: 0px;
+    padding-left: 60px;
+    margin-bottom: 30px;
   
+}
+.terms{
+
+ margin-top: 10px;
+}
+.terms a{
+    text-decoration: none;
+    color: rgba(18, 20, 20, 0.894);
+ 
+   
+  }
+
+  .terms a:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+.brand img{
+    width: 50px;
+    height: 50px;
+    /* margin-top: -20px; */
+    
+}
+.brand a{
+    color: black;
+}
+.brand a:hover{
+    text-decoration: none;
+    color: black;
+  }
+.brand a{
+    text-decoration: none;
+    margin-top: -30px;
+}
+.bottom{
+    height: 50px;
+    
+    margin: auto;
+    color: white;
+}
+
+
+
+
+
