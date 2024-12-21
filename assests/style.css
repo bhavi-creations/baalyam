@@ -12,7 +12,9 @@
 .paracolor {
     color: #333333 !important;
 }
-
+.img_logo{
+    width: 100px !important;
+}
 /*================================ Home Page======================================  */
 
 .chairman_heading {
