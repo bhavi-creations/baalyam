@@ -605,11 +605,14 @@
     <img src="assests/images/Footer.png" class="img-fluid footer-img d-none d-md-block" style="width:2000px" />
     <footer class="d-none d-md-block">
         <!-- Your footer content goes here -->
-        <div class="container foot-sec">
+        <div class="container  foot-sec">
 
-            <div class="row d-flex flex-row justify-content-center">
+            <div class="row d-flex flex-row ">
+                <div class="col-2 col-md-3 col-lg-3 col-xl-3     ">
+                    <img src="assests/images/balyam_footer_logo.png"  class="img-fluid " alt="">
+                </div>
 
-                <div class="col-2 col-md-3 col-lg-2 col-xl-2 sec1footer full_div_space">
+                <div class="col-2 col-md-3 col-lg-3 col-xl-3    ">
                     <h1 class="footer-heading text-center ms-4">Education</h1>
                     <ul style="text-decoration: none;list-style: none;" class="text-center">
                         <a href="daycare.html" style="text-decoration: none;">
@@ -629,7 +632,7 @@
                         </a>
                     </ul>
                 </div>
-                <div class="col-2 col-md-2  col-lg-2 col-xl-2 full_div_space">
+                <div class="col-2 col-md-2  col-lg-3 col-xl-2  ">
                     <h1 class="footer-heading text-center ms-4">Branches</h1>
                     <ul style="text-decoration: none;list-style: none;" class="text-center">
 
@@ -684,7 +687,7 @@
 
                     </ul>
                 </div>
-                <div class="col-2 col-md-5  col-lg-3 col-xl-2 full_div_space">
+                <div class="col-2 col-md-3  col-lg-3 col-xl-3  ">
                     <h1 class="footer-heading text-center ms-4">Contact</h1>
                     <ul style="text-decoration: none;list-style: none;" class="text-center">
                         <li class="footlink text-center">Support</li>

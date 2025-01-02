@@ -1365,9 +1365,7 @@
 
     }
 
-    .full_div_space {
-        /* margin-top: -38px; */
-    }
+   
 
     .copy-right {
         background-color: #F7F3EB;
@@ -1439,3 +1437,9 @@
 .bobble_space{
     margin-top: 3px;
 }
+
+/* .footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+} */
